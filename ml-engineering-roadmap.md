@@ -2,11 +2,11 @@
 
 Sep 28, 2026
 
-Over 95 sessions you'll go from rusty university math to training, evaluating and deploying machine learning models in production. This picks up where the AI Engineering Roadmap ends: you already write Python and ship LLM features, so this program is about how models work underneath and how to run them reliably.
+Over 93 sessions you'll go from rusty university math to training, evaluating and deploying machine learning models in production. This picks up where the AI Engineering Roadmap ends: you already write Python and ship LLM features, so this program is about how models work underneath and how to run them reliably.
 
 ## What you'll have at the end
 
-By session 95 your portfolio repo will hold these working pieces, each with a short write-up of results:
+By session 93 your portfolio repo will hold these working pieces, each with a short write-up of results:
 
 - **From-scratch implementations** of linear and logistic regression, a neural network with backpropagation, a transformer and a small language model. These prove you understand what libraries do for you.
 - **A Kaggle-style tabular project** with a documented pipeline, cross-validation, gradient boosting and an honest comparison of models, explained with SHAP.
@@ -128,6 +128,4 @@ The program runs in nine phases, with two review sessions (31 and 79) to catch u
 | 90 | MLOps | Batch vs real-time inference | Batch jobs, online serving, feature stores |
 | 91 | MLOps | Monitoring and drift | Data drift, model decay, alerting, retraining triggers |
 | 92 | MLOps | ML system design | Designing ML systems end to end, mock interview |
-| 93 | Final project | Final project, part 1 | Problem, data pipeline, baseline, tracked experiments |
-| 94 | Final project | Final project, part 2 | Serving and monitoring |
-| 95 | Final project | Final project, part 3 | Demo, write-up, next steps |
+| 93 | Final project | Final project | An end-to-end ML system: data pipeline, training, serving, monitoring, demo and write-up |

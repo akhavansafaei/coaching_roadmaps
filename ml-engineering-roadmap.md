@@ -2,11 +2,11 @@
 
 Sep 28, 2026
 
-Over 64 sessions you'll go from rusty university math to training, evaluating and deploying machine learning models in production. This picks up where the AI Engineering Roadmap ends: you already write Python and ship LLM features, so this program is about how models work underneath and how to run them reliably.
+Over 88 sessions you'll go from rusty university math to training, evaluating and deploying machine learning models in production. This picks up where the AI Engineering Roadmap ends: you already write Python and ship LLM features, so this program is about how models work underneath and how to run them reliably.
 
 ## What you'll have at the end
 
-By session 64 your portfolio repo will hold these working pieces, each with a short write-up of results:
+By session 88 your portfolio repo will hold these working pieces, each with a short write-up of results:
 
 - **From-scratch implementations** of linear and logistic regression, a neural network with backpropagation, a transformer and a small language model. These prove you understand what libraries do for you.
 - **A Kaggle-style tabular project** with a documented pipeline, cross-validation, gradient boosting and an honest comparison of models.
@@ -32,71 +32,95 @@ Each session is a live call with me plus an assignment you build before the next
 
 ## Sessions at a glance
 
-The program runs in nine phases. Math comes first so the later theory has something to stand on; the final project ties everything together.
+The program runs in nine phases, with two review sessions (39 and 70) to catch up and revisit weak spots. Math comes first so the later theory has something to stand on; the final project ties everything together.
 
 | # | Phase | Session | What you'll learn |
 | --- | --- | --- | --- |
-| 1 | Math | Vectors and matrices | Vectors, dot products, matrices as transformations |
-| 2 | Math | Linear algebra for ML | Projections, least squares, eigenvectors, SVD intuition |
-| 3 | Math | Derivatives and gradients | Derivatives, partial derivatives, gradients |
-| 4 | Math | Chain rule and gradient descent | Chain rule, optimizing a function by hand |
-| 5 | Math | Probability | Random variables, distributions, Bayes' rule |
-| 6 | Math | Statistics | Expectation, variance, sampling, maximum likelihood |
-| 7 | Math | Statistical inference | Confidence intervals, hypothesis tests, A/B tests |
-| 8 | Data | NumPy in depth | Arrays, broadcasting, vectorized code |
-| 9 | Data | pandas and Polars | Wrangling, joins, group-bys |
-| 10 | Data | Data cleaning and preparation | Missing values, outliers, data leakage |
-| 11 | Data | Exploring and visualizing data | EDA, matplotlib, seaborn |
-| 12 | Classical ML | Framing ML problems | Supervised vs unsupervised, bias and variance, splits |
-| 13 | Classical ML | Linear regression from scratch | Loss functions, gradient descent in NumPy |
-| 14 | Classical ML | Logistic regression from scratch | Classification, cross-entropy, regularization |
-| 15 | Classical ML | Evaluation metrics | Precision, recall, ROC-AUC, regression metrics |
-| 16 | Classical ML | Cross-validation and tuning | K-fold CV, hyperparameter search |
-| 17 | Classical ML | Trees and random forests | Decision trees, bagging, feature importance |
-| 18 | Classical ML | Gradient boosting | XGBoost, LightGBM, CatBoost |
-| 19 | Classical ML | Feature engineering | Encoding, scaling, building features |
-| 20 | Classical ML | Pipelines and experiment tracking | scikit-learn pipelines, MLflow |
-| 21 | Classical ML | SVMs and nearest neighbors | Margins, kernels, kNN |
-| 22 | Classical ML | Clustering | k-means, DBSCAN, hierarchical clustering |
-| 23 | Classical ML | Dimensionality reduction | PCA, t-SNE, UMAP |
-| 24 | Project | Tabular project, part 1 | Problem setup, baseline, validation plan |
-| 25 | Project | Tabular project, part 2 | Iteration, final model, write-up |
-| 26 | Specialized | Time series, part 1 | Trend, seasonality, classical forecasting |
-| 27 | Specialized | Time series, part 2 | ML forecasting, backtesting |
-| 28 | Specialized | Recommender systems, part 1 | Collaborative filtering, matrix factorization |
-| 29 | Specialized | Recommender systems, part 2 | Content-based and hybrid, ranking metrics |
-| 30 | Specialized | Anomaly detection | Statistical methods, isolation forest |
-| 31 | Specialized | Bayesian modeling | Priors, posteriors, PyMC |
-| 32 | Deep learning | Neural networks from scratch, part 1 | Neurons, layers, forward pass |
-| 33 | Deep learning | Neural networks from scratch, part 2 | Backpropagation by hand |
-| 34 | Deep learning | PyTorch fundamentals, part 1 | Tensors, autograd |
-| 35 | Deep learning | PyTorch fundamentals, part 2 | Modules, data loaders, training loops |
-| 36 | Deep learning | Training deep networks well | Initialization, normalization, dropout, learning rate schedules |
-| 37 | Deep learning | GPU training basics | CUDA, mixed precision, cloud GPUs |
-| 38 | Deep learning | CNNs and vision, part 1 | Convolutions, image classification |
-| 39 | Deep learning | CNNs and vision, part 2 | Augmentation, modern architectures |
-| 40 | Deep learning | Transfer learning and fine-tuning | Adapting pretrained models |
-| 41 | Deep learning | RNNs and LSTMs | Sequence models and their limits |
-| 42 | Deep learning | Tokenization and embeddings | BPE, embedding spaces |
-| 43 | Deep learning | Transformers from scratch, part 1 | Attention |
-| 44 | Deep learning | Transformers from scratch, part 2 | The full transformer block |
-| 45 | Deep learning | Transformers from scratch, part 3 | Training a tiny transformer |
-| 46 | Deep learning | Hugging Face ecosystem | Transformers, Datasets, the Hub |
-| 47 | Deep learning | Generative models, part 1 | Autoencoders and VAEs |
-| 48 | Deep learning | Generative models, part 2 | Diffusion models |
-| 49 | Deep learning | Graph neural networks | Message passing, PyTorch Geometric |
-| 50 | Deep learning | Reinforcement learning, part 1 | MDPs, Q-learning |
-| 51 | Deep learning | Reinforcement learning, part 2 | Policy gradients, how RLHF uses them |
-| 52 | LLM training | Fine-tuning LLMs, part 1 | LoRA, QLoRA |
-| 53 | LLM training | Fine-tuning LLMs, part 2 | Evaluating against the base model |
-| 54 | LLM training | Quantization and compression | Quantization, distillation, pruning |
-| 55 | LLM training | Small language model, part 1 | Data, tokenizer, model setup |
-| 56 | LLM training | Small language model, part 2 | Training, sampling, what scale changes |
-| 57 | MLOps | Model serving | Packaging models, serving APIs, containers |
-| 58 | MLOps | Batch vs real-time inference | Batch jobs, online serving, feature stores |
-| 59 | MLOps | Monitoring and drift | Data drift, model decay, alerting |
-| 60 | MLOps | ML system design | Designing ML systems end to end |
-| 61 | Final project | Final project, part 1 | Problem, data pipeline, baseline |
-| 62 | Final project | Final project, part 2 | Training and tracked experiments |
-| 63 | Final project | Final project, part 3 | Serving and monitoring |
-| 64 | Final project | Final project, part 4 | Demo, write-up, next steps |
+| 1 | Math | Vectors | Vectors, norms, dot products, geometric intuition |
+| 2 | Math | Matrices | Matrix multiplication, matrices as transformations |
+| 3 | Math | Linear systems and least squares | Solving systems, projections, least squares |
+| 4 | Math | Eigenvectors and SVD | Eigendecomposition, SVD, why PCA works |
+| 5 | Math | Derivatives | Derivative rules, slope intuition |
+| 6 | Math | Multivariable calculus | Partial derivatives, gradients, Jacobians |
+| 7 | Math | Chain rule and gradient descent | Chain rule, optimizing a function by hand |
+| 8 | Math | Probability | Random variables, conditional probability, Bayes' rule |
+| 9 | Math | Distributions | Common distributions, expectation, variance |
+| 10 | Math | Statistics and likelihood | Sampling, estimation, maximum likelihood |
+| 11 | Math | Statistical inference | Confidence intervals, hypothesis tests, A/B tests |
+| 12 | Data | NumPy, part 1 | Arrays, indexing, broadcasting |
+| 13 | Data | NumPy, part 2 | Vectorized code, linear algebra in NumPy |
+| 14 | Data | pandas | Wrangling, joins, group-bys |
+| 15 | Data | Polars and larger data | Lazy queries, performance, when to switch |
+| 16 | Data | Data cleaning and preparation | Missing values, outliers, data leakage |
+| 17 | Data | Exploratory data analysis | Distributions, correlations, asking questions of data |
+| 18 | Data | Data visualization | matplotlib, seaborn, charts that explain |
+| 19 | Classical ML | Framing ML problems | Supervised vs unsupervised, bias and variance, splits |
+| 20 | Classical ML | Linear regression from scratch, part 1 | Loss functions, closed-form solution |
+| 21 | Classical ML | Linear regression from scratch, part 2 | Gradient descent in NumPy, regularization |
+| 22 | Classical ML | Logistic regression from scratch | Classification, cross-entropy, decision boundaries |
+| 23 | Classical ML | Classification metrics | Precision, recall, ROC-AUC, imbalanced data |
+| 24 | Classical ML | Regression metrics and calibration | MAE, RMSE, calibration, choosing a metric |
+| 25 | Classical ML | Cross-validation and tuning | K-fold CV, hyperparameter search |
+| 26 | Classical ML | Trees and random forests | Decision trees, bagging, feature importance |
+| 27 | Classical ML | Gradient boosting, part 1 | How boosting works, XGBoost |
+| 28 | Classical ML | Gradient boosting, part 2 | LightGBM, CatBoost, tuning boosted models |
+| 29 | Classical ML | Feature engineering, part 1 | Encoding, scaling, missing-value strategies |
+| 30 | Classical ML | Feature engineering, part 2 | Dates, text, interactions, feature selection |
+| 31 | Classical ML | scikit-learn pipelines | Pipelines, column transformers, reproducibility |
+| 32 | Classical ML | Experiment tracking | MLflow, comparing runs |
+| 33 | Classical ML | SVMs and nearest neighbors | Margins, kernels, kNN |
+| 34 | Classical ML | Clustering | k-means, DBSCAN, hierarchical clustering |
+| 35 | Classical ML | Dimensionality reduction | PCA, t-SNE, UMAP |
+| 36 | Project | Tabular project, part 1 | Problem setup, EDA, validation plan |
+| 37 | Project | Tabular project, part 2 | Baselines, features, boosting |
+| 38 | Project | Tabular project, part 3 | Final model, error analysis, write-up |
+| 39 | Review | Review and catch-up | Revisit weak spots from sessions 1–38 |
+| 40 | Specialized | Time series, part 1 | Trend, seasonality, classical forecasting |
+| 41 | Specialized | Time series, part 2 | ML forecasting, backtesting |
+| 42 | Specialized | Recommender systems, part 1 | Collaborative filtering, matrix factorization |
+| 43 | Specialized | Recommender systems, part 2 | Content-based and hybrid, ranking metrics |
+| 44 | Specialized | Anomaly detection | Statistical methods, isolation forest |
+| 45 | Specialized | Bayesian modeling, part 1 | Priors, posteriors, Bayesian thinking |
+| 46 | Specialized | Bayesian modeling, part 2 | PyMC, hierarchical models |
+| 47 | Deep learning | Neural networks from scratch, part 1 | Neurons, layers, forward pass |
+| 48 | Deep learning | Neural networks from scratch, part 2 | Backpropagation by hand |
+| 49 | Deep learning | Neural networks from scratch, part 3 | Training your network on real data |
+| 50 | Deep learning | PyTorch fundamentals, part 1 | Tensors, autograd |
+| 51 | Deep learning | PyTorch fundamentals, part 2 | Modules, data loaders, training loops |
+| 52 | Deep learning | Training deep networks well, part 1 | Optimizers, initialization, learning rate schedules |
+| 53 | Deep learning | Training deep networks well, part 2 | Normalization, dropout, debugging training |
+| 54 | Deep learning | GPU training basics | CUDA, mixed precision, cloud GPUs |
+| 55 | Deep learning | CNNs and vision, part 1 | Convolutions, image classification |
+| 56 | Deep learning | CNNs and vision, part 2 | Augmentation, modern architectures |
+| 57 | Deep learning | Transfer learning and fine-tuning | Adapting pretrained models |
+| 58 | Deep learning | RNNs and LSTMs | Sequence models and their limits |
+| 59 | Deep learning | Tokenization and embeddings | BPE, embedding spaces |
+| 60 | Deep learning | Transformers from scratch, part 1 | Attention |
+| 61 | Deep learning | Transformers from scratch, part 2 | The full transformer block |
+| 62 | Deep learning | Transformers from scratch, part 3 | Building a GPT-style model |
+| 63 | Deep learning | Transformers from scratch, part 4 | Training and sampling a tiny transformer |
+| 64 | Deep learning | Hugging Face ecosystem | Transformers, Datasets, the Hub |
+| 65 | Deep learning | Generative models, part 1 | Autoencoders and VAEs |
+| 66 | Deep learning | Generative models, part 2 | Diffusion models |
+| 67 | Deep learning | Graph neural networks | Message passing, PyTorch Geometric |
+| 68 | Deep learning | Reinforcement learning, part 1 | MDPs, Q-learning |
+| 69 | Deep learning | Reinforcement learning, part 2 | Policy gradients, how RLHF uses them |
+| 70 | Review | Review and catch-up | Revisit weak spots from sessions 40–69 |
+| 71 | LLM training | Fine-tuning LLMs, part 1 | When to fine-tune, preparing a dataset |
+| 72 | LLM training | Fine-tuning LLMs, part 2 | LoRA, QLoRA |
+| 73 | LLM training | Fine-tuning LLMs, part 3 | Evaluating against the base model |
+| 74 | LLM training | Quantization and compression | Quantization, distillation, pruning |
+| 75 | LLM training | Small language model, part 1 | Data, tokenizer, model setup |
+| 76 | LLM training | Small language model, part 2 | Training, sampling, what scale changes |
+| 77 | MLOps | Model serving, part 1 | Packaging models, serving APIs |
+| 78 | MLOps | Model serving, part 2 | Containers, deployment, scaling |
+| 79 | MLOps | Batch vs real-time inference | Batch jobs, online serving, feature stores |
+| 80 | MLOps | Monitoring and drift, part 1 | Data drift, model decay, detection |
+| 81 | MLOps | Monitoring and drift, part 2 | Alerting, retraining triggers |
+| 82 | MLOps | ML system design, part 1 | A framework for designing ML systems |
+| 83 | MLOps | ML system design, part 2 | Mock design interview |
+| 84 | Final project | Final project, part 1 | Problem, data pipeline, baseline |
+| 85 | Final project | Final project, part 2 | Training and tracked experiments |
+| 86 | Final project | Final project, part 3 | Serving |
+| 87 | Final project | Final project, part 4 | Monitoring and retraining |
+| 88 | Final project | Final project, part 5 | Demo, write-up, next steps |
